@@ -1,0 +1,157 @@
+/* Overriddes - Start */
+
+img.paper {
+	padding: 0rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1 !important;
+}
+
+.paper {
+	padding: 2rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+	border-radius: 1rem;
+}
+
+.paper.social-link {
+	padding: 0;
+	min-height: fit-content;
+}
+
+.switch {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Overriddes - End */
+
+/* Responsive - Start */
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 100%;
+	}
+	.row.center-xs.start-sm.paper.header-content {
+		margin-top: 0 !important;
+	}
+	.container.container-fluid.header-content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.row.header-content {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.col-xs-12.header-content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.paper.header-content {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+		border-radius: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	/* .user-logo {
+		margin: 0 auto;
+	} */
+	.container {
+		width: 100%;
+	}
+	.container-fluid {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.row.center-xs.start-sm.paper.header-content {
+		margin-top: 0 !important;
+	}
+	.container.container-fluid.header-content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.row.header-content {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.col-xs-12.header-content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.paper.header-content {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+		border-radius: 0;
+	}
+	.social-link {
+		width: 100%;
+	}
+	.social-link > h3 {
+		font-size: 16pt !important;
+	}
+	.social-icon {
+		margin-right: 2rem;
+		max-height: 2.5rem;
+		max-width: 2.5rem;
+	}
+	article.paper .infos {
+		padding: 0.1rem 1rem 2rem 1rem;
+	}
+	.infos > h3 {
+		margin: 2.5rem 0;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.social-link.github {
+		width: 50%;
+	}
+}
+
+/* For Galaxy Fold and other narrow displays */
+
+@media screen and (max-width: 390px) {
+	#visualChanger > .col-xs-base {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+	article.paper .infos .txt {
+		font-size: 0.95rem;
+	}
+	.themeChanger {
+		margin-right: 0 !important;
+	}
+	#languageChanger {
+		margin-right: 0 !important;
+	}
+}
+
+@media screen and (min-width: 391px) {
+	#visualChanger > .col-xs-base {
+		flex-basis: 50%;
+		max-width: 50%;
+	}
+	.themeChanger {
+		margin-right: 3.5rem !important;
+	}
+	#languageChanger {
+		margin-right: 3.5rem !important;
+	}
+}
+
+/* Responsive - End */

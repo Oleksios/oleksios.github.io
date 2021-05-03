@@ -1,0 +1,17 @@
+{
+	"uk": {
+		"MCC": "Набір даних MCC українською, англійською та російською мовами.",
+		"Monoboard": "Особистий проект десктопного клієнту Monobank для Windows (WPF)",
+		"Portfolio": "Сайт-портфоліо в стилі Neumorphism."
+	},
+	"en": {
+		"MCC": "MCC dataset in Ukrainian, English and Russian languages.",
+		"Monoboard": "Personal project of a desktop client Monobank for Windows (WPF)",
+		"Portfolio": "Neumorphism style portfolio site."
+	},
+	"ru": {
+		"MCC": "Набор данных MCC на украинском, английском и русском языке.",
+		"Monoboard": "Личный проект десктопного клиента Monobank для Windows (WPF)",
+		"Portfolio": "Сайт-портфолио в стиле Neumorphism."
+	}
+}

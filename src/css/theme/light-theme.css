@@ -1,0 +1,41 @@
+:root {
+	--bg-color: #e4ebf5 !important;
+	--fg-color: #2c2f34 !important;
+	--shadow-color-1: #bec8e4 !important;
+	--shadow-color-2: #fff !important;
+	/* For scrollbar */
+	--bg-color-inverted: #1b140a !important;
+}
+
+/* Start - Scrollbar */
+
+/* ===== Scrollbar CSS ===== */
+
+/* Firefox */
+
+* {
+	scrollbar-width: auto;
+	scrollbar-color: var(--bg-color-inverted) transparent;
+}
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+	width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--bg-color-inverted);
+	border: 4px solid var(--bg-color);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+
+/* End - Scrollbar */

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Сайт-портфоліо в стилі Neumorphism. Олексій Тесленко">
+	<meta name="keywords" content="Portfolio, Oleksii Teslenko, Портфоліо, Олексій Тесленко">
+	<meta name="author" content="Олексій Тесленко">
+	<meta name="robots" content= "index, follow">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta class="theme-color-set" name="theme-color" content="#e4ebf5">
+	<!-- Windows Phone -->
+	<meta class="theme-color-set" name="msapplication-navbutton-color" content="#e4ebf5">
+	<!-- iOS Safari -->
+	<meta class="theme-color-set" name="apple-mobile-web-app-status-bar-style" content="#e4ebf5">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="src/images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="src/images/favicons/favicon.png" sizes="32x32">
+	<link rel="shortcut icon" href="src/images/favicons/favicon.ico">
+	<meta name="msapplication-TileImage" content="src/images/favicons/mstile-150x150.png">
+	<meta class="theme-color-set" name="msapplication-TileColor" content="#e4ebf5">
+
+	<title>Oleksios</title>
+	<link rel="stylesheet" href="src/lib/neumorphism/skeuos.min.css">
+	<link rel="stylesheet" href="src/lib/flexbox-grid/flexboxgrid.min.css">
+	<link rel="stylesheet" href="src/css/style.css">
+	<link id="theme-link" rel="stylesheet" href="src/css/theme/light-theme.css">
+	<link rel="stylesheet" href="src/css/social.css">
+	<link rel="stylesheet" href="src/css/animation.css">
+	<link rel="stylesheet" href="src/css/overrides.css">
+	<link rel="stylesheet" href="src/lib/normalize-css/normalize.css">
+</head>
+
+<body>
+	<div id="preloader" class="center">
+		<div class="preloader-circle">
+			<span></span>
+		</div>
+	</div>
+
+	<header class="container container-fluid header-content">
+		<div class="row header-content">
+			<div class="col-xs-12 header-content">
+				<div class="row center-xs start-sm paper header-content">
+					<div class="col-xs-12 col-sm-4 logo-position">
+						<div class="user-logo">
+							<img draggable="false" class="paper pulse" src="https://avatars.githubusercontent.com/u/30006307"
+								alt="Logo">
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-8">
+						<h1 class="text-lang" key="Name">Олексій Тесленко</h1>
+						<a class="paper social-link github" href="https://github.com/Oleksios" target="_blank"
+							rel="noopener noreferrer">
+							<img draggable="false" class="social-icon" src="src/images/social/github.png" alt="GitHub logo">
+							<span>
+								Oleksios
+							</span>
+						</a>
+
+						<div id="visualChanger" class="row">
+							<div class="col-xs-base col-sm-6 center">
+								<div class="themeChanger">
+									<p class="text-lang" key="DarkTheme">Темна тема</p>
+									<label class="switch">
+										<input id="themeChanger" type="checkbox" onchange="changeTheme()">
+										<div></div>
+									</label>
+								</div>
+							</div>
+							<div class="col-xs-base col-sm-6 center">
+								<select id="languageChanger" onchange="changeLanguage()">
+									<option value="uk" class="text-lang" key="UKLang">Українська мова</option>
+									<option value="en" class="text-lang" key="ENLang">Англійська мова</option>
+									<option value="ru" class="text-lang" key="RULang">Російська мова</option>
+								</select>
+							</div>
+
+						</div>
+
+						<div class="row tab">
+							<div class="col-xs-12 col-sm-6 center-xs center-sm">
+								<button id="portfolioTabItem" onclick="openTab(event, 'portfolio')" class="tablinks paper text-lang"
+									key="PortfolioTab">
+									Портфоліо
+								</button>
+							</div>
+							<div class="col-xs-12 col-sm-6 center-xs center-sm">
+								<button onclick="openTab(event, 'contacts')" class="tablinks paper text-lang" key="ContactsTab">
+									Контакти
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="container container-fluid">
+		<div class="col-xs-12 content">
+			<div id="portfolio" class="row tabcontent around-xs">
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+					<article class="project-card paper">
+						<div class="thumb mcc-image"></div>
+						<div class="infos">
+							<h3 class="title center">Merchant Category Codes</h3>
+							<p class="txt text-lang" key="MCC">
+								Набір даних MCC українською, англійською та російською мовами.
+							</p>
+							<div class="center">
+								<img draggable="false" class="github-social" alt="GitHub Repo stars"
+									src="https://img.shields.io/github/stars/Oleksios/Merchant-Category-Codes?style=for-the-badge">
+								<img draggable="false" class="github-social" alt="GitHub forks"
+									src="https://img.shields.io/github/forks/Oleksios/Merchant-Category-Codes?style=for-the-badge">
+							</div>
+							<a class="details paper social-link github full-width"
+								href="https://github.com/Oleksios/Merchant-Category-Codes" target="_blank" rel="noopener noreferrer">
+								<img draggable="false" class="social-icon" src="src/images/social/github.png" alt="GitHub logo">
+								<span>
+									GitHub
+								</span>
+							</a>
+						</div>
+					</article>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+					<article class="project-card paper">
+						<div class="thumb monoboard-image"></div>
+						<div class="infos">
+							<h3>Monoboard</h3>
+							<p class="txt text-lang" key="Monoboard">
+								Особистий проект десктопного клієнту Monobank для Windows (WPF)
+							</p>
+							<div class="txt center">
+								<img draggable="false" class="github-social" alt="GitHub Repo stars"
+									src="https://img.shields.io/github/stars/Oleksios/Monoboard?style=for-the-badge">
+							</div>
+							<a class="details paper social-link github full-width" href="https://github.com/Oleksios/Monoboard"
+								target="_blank" rel="noopener noreferrer">
+								<img draggable="false" class="social-icon" src="src/images/social/github.png" alt="GitHub logo">
+								<span>
+									GitHub
+								</span>
+							</a>
+						</div>
+					</article>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+					<article class="project-card paper">
+						<div class="thumb portfolio-image"></div>
+						<div class="infos">
+							<h3>Portfolio</h3>
+							<p class="txt text-lang" key="Portfolio">
+								Сайт-портфоліо в стилі Neumorphism.
+							</p>
+							<a class="details paper social-link github full-width"
+								href="https://github.com/Oleksios/oleksios.github.io" target="_blank" rel="noopener noreferrer">
+								<img draggable="false" class="social-icon" src="src/images/social/github.png" alt="GitHub logo">
+								<span>
+									GitHub
+								</span>
+							</a>
+						</div>
+					</article>
+				</div>
+			</div>
+
+			<div id="contacts" class="col-xs-12 tabcontent">
+				<div class="row">
+					<div class="col-xs-12 paper">
+						<div class="row around-xs">
+							<div class="col-xs-12 center-xs">
+								<h5 class="text-lang" key="ContactMe">Зв'яжіться зі мною тут</р>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-lg-4">
+								<a class="paper social-link linkedIn" href="https://www.linkedin.com/in/oleksateslenko/" target="_blank"
+									rel="noopener noreferrer">
+									<img draggable="false" class="social-icon" src="src/images/social/linkedIn.png" alt="LinkedIn logo">
+									<span>
+										LinkedIn
+									</span>
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-lg-4">
+								<a class="paper social-link telegram" href="https://t.me/Oleksios" target="_blank"
+									rel="noopener noreferrer">
+									<img draggable="false" class="social-icon" src="src/images/social/telegram.png" alt="LinkedIn logo">
+									<span>
+										Telegram
+									</span>
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-lg-4">
+								<a class="paper social-link facebook full-width" href="https://www.facebook.com/Oleksios"
+									target="_blank" rel="noopener noreferrer">
+									<img draggable="false" class="social-icon" src="src/images/social/facebook.png" alt="LinkedIn logo">
+									<span>
+										Facebook
+									</span>
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-lg-6">
+								<a class="paper social-link email full-width" href="mailto:oleksa.teslenko@gmail.com" target="_blank"
+									rel="noopener noreferrer">
+									<img draggable="false" class="social-icon" src="src/images/social/email.png" alt="LinkedIn logo">
+									<span>
+										Email
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 paper">
+						<h5 class="text-lang center" key="WriteFromHere">Або напишіть листа звідси</h5>
+						<form class="row" action="https://formspree.io/f/xjvjvbnb" method="POST">
+							<div class="col-xs-12">
+								<label for="Email" class="text-lang" key="YourEmail">
+									Ваш Email:
+								</label>
+								<input id="Email" required class="full-width" type="email" name="_replyto"
+									placeholder="example@gmail.com" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}">
+							</div>
+							<div class="col-xs-12">
+								<label for="Phone" class="text-lang" key="YourPhone">
+									Номер телефону для зворортнього зв'язку (необов'язково)
+								</label>
+								<input id="Phone" name="phone" type="tel" placeholder="+380987654321"
+									pattern="^(\+38)?(0[5-9][0-9]\d{7})$" class="full-width" />
+							</div>
+							<div class="col-xs-12">
+								<label for="Message" class="text-lang" key="YourMessage">
+									Ваше повідомлення:
+								</label>
+								<textarea id="Message" required class="full-width" name="message"></textarea>
+							</div>
+							<button class="col-xs-12 green-button full-width text-lang" type="submit" key="Send">Відправити</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="src/js/theme.js"></script>
+	<script src="src/js/lang.js"></script>
+	<script src="src/js/site.js"></script>
+	<script>
+		let path = ["src/lang/main.json", "src/lang/projects.json"];
+
+		document.addEventListener('DOMContentLoaded', function () {
+			getJsonAndInitialize(path);
+		}, false);
+	</script>
+</body>
+
+</html>

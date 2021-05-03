@@ -1,0 +1,47 @@
+{
+	"uk": {
+		"Name": "Олексій Тесленко",
+		"PortfolioTab": "Портфоліо",
+		"ContactsTab": "Контакти",
+		"DarkTheme": "Темна тема",
+		"UKLang": "Українська мова",
+		"ENLang": "Англійська мова",
+		"RULang": "Російська мова",
+		"WriteFromHere": "Або напишіть листа звідси",
+		"ContactMe": "Зв'яжіться зі мною тут",
+		"YourEmail": "Ваш Email:",
+		"YourPhone": "Номер телефону для зворотнього зв'язку (не обов'язково):",
+		"YourMessage": "Ваше повідомлення:",
+		"Send": "Відправити"
+	},
+	"en": {
+		"Name": "Oleksii Teslenko",
+		"PortfolioTab": "Portfolio",
+		"ContactsTab": "Contacts",
+		"DarkTheme": "Dark theme",
+		"UKLang": "Ukrainian language",
+		"ENLang": "English language",
+		"RULang": "Russian language",
+		"WriteFromHere": "Or write a letter from here",
+		"ContactMe": "Contact me here",
+		"YourEmail": "Your Email:",
+		"YourPhone": "Phone number for feedback (optional):",
+		"YourMessage": "Your message:",
+		"Send": "Send"
+	},
+	"ru": {
+		"Name": "Алексей Тесленко",
+		"PortfolioTab": "Портфолио",
+		"ContactsTab": "Контакты",
+		"DarkTheme": "Темная тема",
+		"UKLang": "Украинский язык",
+		"ENLang": "Английский язык",
+		"RULang": "Русский язык",
+		"WriteFromHere": "Или напишите письмо отсюда",
+		"ContactMe": "Свяжитесь со мной здесь",
+		"YourEmail": "Ваш Email:",
+		"YourPhone": "Номер телефона для обратной связи (необязательно):",
+		"YourMessage": "Ваше сообщение:",
+		"Send": "Отправить"
+	}
+}
